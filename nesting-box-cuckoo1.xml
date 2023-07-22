@@ -1,0 +1,7 @@
+<nesting-box xsi:schemaLocation="cuckoo.ns cuckoo.xsd" 
+               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <wren>Nice!</wren>
+   <robin>Nicer!</robin>
+   <robin>Nicest!</robin>
+   <cuckoo xmlns="cuckoo.ns">Horrid!</cuckoo>
+</nesting-box>

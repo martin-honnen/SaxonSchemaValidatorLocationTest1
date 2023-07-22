@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="schema1.xsd">
+    <item>
+        <name>1item</name>
+        <value>25.24</value>
+    </item>
+    <item>
+        <name>item2</name>
+        <value>3€</value>
+    </item>
+</items>

@@ -1,0 +1,17 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    elementFormDefault="qualified"
+    attributeFormDefault="unqualified"
+    version="1.1">
+    
+    <xs:element name="nesting-box" type="nesting-box-type"/>
+    
+    <xs:complexType name="nesting-box-type">
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:element ref="wren"/>
+            <xs:element ref="robin"/>
+        </xs:choice>
+    </xs:complexType>
+    
+    <xs:element name="wren" type="xs:string"/>
+    <xs:element name="robin" type="xs:string"/>
+</xs:schema>
